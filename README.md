@@ -103,7 +103,7 @@ You can also access the deployed version of StoryBot on Hugging Face Spaces:
 [BrainyBytes: Storytelling for Smart Learning on Hugging Face Spaces](https://huggingface.co/spaces/ankitg28/BrainyBytes_Storytelling_for_Smart_Learning)
 
 ## Demo Video Demonstration
-Watch the video demonstration to see BrainBytes in action: [YouTube Video Link](https://youtu.be/oYt6LAaVhmo)
+Watch the video demonstration to see BrainBytes in action: [https://youtu.be/oYt6LAaVhmo](https://youtu.be/InEwhVpjjog)
 
 ## What's Next
 
