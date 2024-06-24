@@ -57,8 +57,8 @@ Developed an application with a user interface that allows users to input natura
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ankitg28/ankitg28-BrainyBytes_Storytelling_for_Smart_Learning.git
-   cd ankitg28-BrainyBytes_Storytelling_for_Smart_Learning.git
+   git clone https://github.com/ankitg28/BrainyBytes_Storytelling_for_Smart_Learning.git
+   cd BrainyBytes_Storytelling_for_Smart_Learning
 
 2. **Create a virtual environment and activate it:** 
     ```bash
