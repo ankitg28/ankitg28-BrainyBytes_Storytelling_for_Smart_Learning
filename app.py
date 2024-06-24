@@ -26,7 +26,7 @@ email = "ankit.28.goyal@gmail.com"
 github_url = "https://github.com/ankitg28"
 
 def main():
-    st.set_page_config(page_title="StoryBot: Learning Made Memorable", page_icon=":books:")
+    st.set_page_config(page_title="BrainyBytes: Storytelling for Smart Learning", page_icon=":books:")
     st.markdown(f"""
         <style>
             .header {{
@@ -97,7 +97,7 @@ def main():
         </div>
         <div class="content">
             <h3>Why I Created BrainyBytes</h3>
-            <p>Hi, I'm Ankit! I have always had a problem remembering things. Over time, I discovered that creating a story around a concept helps me remember it much better. This inspired me to create StoryBot, a small tool to aid in learning by transforming complex concepts into simple, memorable stories. I hope this helps you as much as it helps me!</p>
+            <p>Hi, I'm Ankit! I have always had a problem remembering things. Over time, I discovered that creating a story around a concept helps me remember it much better. This inspired me to create BrainBytes, a small tool to aid in learning by transforming complex concepts into simple, memorable stories. I hope this helps you as much as it helps me!</p>
         </div>
     """, unsafe_allow_html=True)
     st.write("### Ask me about any concept, and I'll explain it with a short story!")
