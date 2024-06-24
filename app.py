@@ -100,7 +100,7 @@ def main():
             <p>Hi, I'm Ankit! I have always had a problem remembering things. Over time, I discovered that creating a story around a concept helps me remember it much better. This inspired me to create BrainBytes, a small tool to aid in learning by transforming complex concepts into simple, memorable stories. I hope this helps you as much as it helps me!</p>
         </div>
     """, unsafe_allow_html=True)
-    st.write("### Ask me about any concept, and I'll explain it with a short story!")
+    st.write("### Stumped by a tricky concept? 🧐 Let me spin it into a story!")
    
     if "messages" not in st.session_state:
         st.session_state.messages = []
@@ -131,10 +131,10 @@ def main():
         value=st.session_state.user_input, 
         max_chars=150, 
         key="user_input", 
-        placeholder="Type your question here..."
+        placeholder="Go ahead, challenge me with your toughest concept..."
     )
 
-    if st.button("Ask Me?"):
+    if st.button("Storyify It! 📖"):
         if user_input:
             st.session_state.messages.append({"role": "user", "content": user_input})
 
