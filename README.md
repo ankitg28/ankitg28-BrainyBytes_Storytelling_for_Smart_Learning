@@ -1,6 +1,6 @@
 # BrainBytes: Storytelling for Smart Learning
 <p align="center">
-  <img src="header_image.png" alt="BrainBytes" width="600" height="400" />
+  <img src="BrainyBytes.jpg" alt="BrainBytes" width="900" height="500" />
 </p>
 <p align="center">
   <strong>
@@ -8,21 +8,19 @@
   </strong>
 </p>
 <p align="center" style="font-size: 20px;">
-  <br>BrainBytes is an educational chatbot designed to help students understand complex concepts and definitions through short, memorable stories.
+  <br>BrainBytes is an educational chatbot to help students understand complex concepts and definitions through short, memorable stories
 </p>
 
 ## Objective
 
-To understand the process of integrating LLMs with user interfaces and create a helpful educational tool for students.
+To understand the process of integrating LLMs with user interfaces and create a helpful educational tool for students
 
 ## About the App
 
-StoryBot is built using the following technologies:
+BrainBytes is built using the following technologies:
 - **Streamlit**: For the interactive user interface
 - **LangChain**: For managing conversational flows and prompts
 - **OpenAI**: GPT-3.5-turbo model for natural language processing and response generation
-
-This combination ensures that StoryBot is capable of understanding and processing natural language queries to provide educational content in an engaging manner.
 
 ## Domain Selection
 
@@ -83,14 +81,10 @@ Developed an application with a user interface that allows users to input natura
 
 2. **Open your browser:** 
     ```bash
-    Navigate to http://localhost:8501 to use the StoryBot application.
-
-3. **Install the required packages:** 
-    ```bash
-    pip install -r requirements.txt
+    Navigate to http://localhost:8501 to use the BrainBytes application.
 
 ## Demo Video Demonstration
-Watch the video demonstration to see StoryBot in action: [YouTube Video Link] (https://youtu.be/oYt6LAaVhmo)
+Watch the video demonstration to see BrainBytes in action: [YouTube Video Link] (https://youtu.be/oYt6LAaVhmo)
 
 ## What's Next
 
