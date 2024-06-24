@@ -29,10 +29,12 @@ BrainBytes is built using the following technologies:
 **User Base:** Students
 
 ## Purpose
+
 - Help students understand and remember complex academic concepts.
 - Provide simple stories and definitions to aid memory retention.
 
 ## Scope and Queries
+
 - The chatbot will handle queries related to academic concepts across various subjects such as Sciences, Tech, History, Arts, and more.
 - It will provide concise definitions followed by simple stories to explain the concepts.
 
@@ -83,8 +85,14 @@ Developed an application with a user interface that allows users to input natura
     ```bash
     Navigate to http://localhost:8501 to use the BrainBytes application.
 
+## Hugging Face Spaces Deployment
+
+You can also access the deployed version of StoryBot on Hugging Face Spaces:
+
+[BrainyBytes: Storytelling for Smart Learning on Hugging Face Spaces](https://huggingface.co/spaces/ankitg28/BrainyBytes_Storytelling_for_Smart_Learning)
+
 ## Demo Video Demonstration
-Watch the video demonstration to see BrainBytes in action: [YouTube Video Link] (https://youtu.be/oYt6LAaVhmo)
+Watch the video demonstration to see BrainBytes in action: [YouTube Video Link](https://youtu.be/oYt6LAaVhmo)
 
 ## What's Next
 
