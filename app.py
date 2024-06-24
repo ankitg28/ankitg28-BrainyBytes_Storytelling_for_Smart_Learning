@@ -26,7 +26,7 @@ email = "ankit.28.goyal@gmail.com"
 github_url = "https://github.com/ankitg28"
 
 def main():
-    st.set_page_config(page_title="BrainyBytes: Storytelling for Smart Learning", page_icon=":books:")
+    st.set_page_config(page_title="BrainBytes: Storytelling for Smart Learning", page_icon=":books:")
     st.markdown(f"""
         <style>
             .header {{
@@ -127,12 +127,16 @@ def main():
                 st.markdown(f"<div class='message assistant'><strong>Assistant:</strong> {message['content']}</div>", unsafe_allow_html=True)
 
     user_input = st.text_area(
-        "Enter your question (up to 150 characters):", 
+        "Enter your mind-boggling concept (up to 150 characters):", 
         value=st.session_state.user_input, 
         max_chars=150, 
         key="user_input", 
         placeholder="Go ahead, challenge me with your toughest concept..."
     )
+
+    # Add a slider to select the desired story length
+    story_length = st.slider("Select the length of the story (in words):", min_value=50, max_value=300, value=100, step=50)
+
 
     if st.button("Storyify It! 📖"):
         if user_input:
@@ -141,7 +145,7 @@ def main():
             # Prepare messages
             messages = [
                 SystemMessage(content=system_message_content),
-                HumanMessage(content=user_input)
+                HumanMessage(content=f"{user_input}. Please keep the story within {story_length} words.")
             ]
 
             response = chatllm.invoke(messages)
