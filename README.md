@@ -38,6 +38,15 @@ BrainBytes is built using the following technologies:
 - The chatbot will handle queries related to academic concepts across various subjects such as Sciences, Tech, History, Arts, and more.
 - It will provide concise definitions followed by simple stories to explain the concepts.
 
+## Prompt Patterns Used
+
+**Persona Pattern:**
+- The AI is defined as an "educational assistant" to ensure consistent, role-specific responses.
+
+**Template Pattern:**
+- The AI follows a structured format: first providing a short definition, then generating a simple story to explain the concept clearly and memorably.
+
+
 ## Application Development
 
 - **Frontend:** Streamlit
@@ -70,8 +79,10 @@ Developed an application with a user interface that allows users to input natura
     pip install -r requirements.txt
 
 
-4. **Set up your OpenAI API key:** 
+4. **Set up your OpenAI API key:**
+   [OPENAI API Documentation](https://platform.openai.com/docs/quickstart)
     ```bash
+    Create a .env File and set up your openai api key
     OPENAI_API_KEY=your_openai_api_key
 
 ### Running the Application
