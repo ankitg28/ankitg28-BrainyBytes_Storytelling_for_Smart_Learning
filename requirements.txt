@@ -4,3 +4,10 @@ langchain_community
 python-dotenv
 streamlit
 langchain-community
+chromadb
+pypdf
+tiktoken
+docarray
+scikit-learn
+transformers
+docx2txt
