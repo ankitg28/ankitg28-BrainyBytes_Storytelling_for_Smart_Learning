@@ -94,8 +94,6 @@ BrainBytes is built using the following technologies:
 
 ### Running the Application
 
-### Running the Application
-
 1. **Run the Streamlit app:**
    ```bash
    streamlit run app.py
@@ -201,3 +199,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Contact Us
 - **Linkedin:** https://www.linkedin.com/in/goyalankit28
 - **Email:** ankit.28.goyal@gmail.com
+- **PS:** Project only for learning purpose. Not to be circulated
