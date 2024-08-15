@@ -122,7 +122,7 @@ BrainBytes is built using the following technologies:
 Report: [Report](./Project_Report.pdf)
 
 ## Demo Video Demonstration
-Watch the video demonstration to see BrainBytes in action: [https://youtu.be/oYt6LAaVhmo](https://youtu.be/InEwhVpjjog)
+Watch the video demonstration to see BrainBytes in action: [https://youtu.be/T1NVOW5wLio](https://youtu.be/T1NVOW5wLio)
 
 ## What's Next
 
